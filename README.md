@@ -94,7 +94,7 @@ mkdir /mnt/{boot,esp}
 ```
 Устанавливаем базовую систему и сразу нужные пакеты
 ```
-pacstrap -i /mnt base sudo extra/vim openssh bash-completion
+pacstrap -i /mnt base linux linux linux-firmware sudo extra/vim openssh bash-completion
 ```
 Генерируем конфиг для монтирования дисков при загрузке
 ```
